@@ -1,6 +1,8 @@
 # ImgComposer
 the official repo for ImgComposer
 
+![Experimental results](https://github.com/theseainc/ImgComposer/blob/main/figs/ICCVResults.png?raw=true)
+
 
 # Overview
 
@@ -19,8 +21,6 @@ The repository is organized  as follows:
 The notebooks contains the implementation and experiment code of `ImgComposer` on all six datasets mentioned previously, and all notebooks can be directly ran on Google colab after putting the needed datasets and models under the corresponding Google drive directories. For example, saving the animal datasets under `/content/drive/MyDrive/SDV1_5_wildcard_animal/data_fine_tune_v5/` and `/content/drive/MyDrive/SDV1_5_wildcard_facial_expression/data_token_embedding/`.  
 
 The colab code will auto-complete other folder creation process, if you want to train your own models. Otherwise, you can save the pre-tained models for direct inference. The models should be saved directly under the parent directories. For example, saving the pre-trained model trained on the animal dataset under `/content/drive/MyDrive/SDV1_5_wildcard_animal/` and the model trained on the face expression dataset under `/content/drive/MyDrive/SDV1_5_wildcard_facial_expression/`. 
-
-![Experimental results](https://github.com/theseainc/ImgComposer/blob/main/figs/ICCVResults.png?raw=true)
 
 
 # Additional Notes 
