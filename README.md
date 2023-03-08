@@ -28,6 +28,6 @@ The colab code will auto-complete other folder creation process, if you want to 
 Due to the large size of the preprocessed datasets and pre-trained models, we save them in a dropbox, which can be accessed via the following link: https://www.dropbox.com/scl/fo/hdjef3n5gjqwpd6w8sbh6/h?dl=0&rlkey=so3as3dajmbijkj5xzbm97nzx
 
 The Dropbox is organized as follows: 
+
 - under each dataset folder, for example `animal/`
-	- 
 
