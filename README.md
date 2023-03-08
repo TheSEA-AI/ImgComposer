@@ -6,7 +6,7 @@ the official repo for ImgComposer
 
 # Overview
 
-Here we provide the implementation of ImgComposer, *ImgComposer: Disentangling and Composing Images \\in Text-Guided Image Generation Using Latent Diffusion Models*, along with a minimal execution example (on the animal dataset and face expression datasets). 
+Here we provide the implementation of ImgComposer, *ImgComposer: Disentangling and Composing Images in Text-Guided Image Generation Using Latent Diffusion Models*, along with a minimal execution example (on the animal dataset and face expression datasets). 
 
 The repository is organized  as follows:
 - under each dataset folder, for example `animal/`
@@ -18,7 +18,7 @@ The repository is organized  as follows:
 
 *Note: since the two pre-trained models are independently trained, to generate face expression related disentanglement images on animal-based pre-trained models will not return the images of a special form of face expression.*
 
-The notebooks contains the implementation and experiment code of `ImgComposer` on all six datasets mentioned previously, and all notebooks can be directly ran on Google colab after putting the needed datasets and models under the corresponding Google drive directories. For example, saving the animal datasets under `/content/drive/MyDrive/SDV1_5_wildcard_animal/data_fine_tune_v5/` and `/content/drive/MyDrive/SDV1_5_wildcard_facial_expression/data_token_embedding/`.  
+The notebooks contains the implementation and experiment code of `ImgComposer` on two datasets mentioned previously, and all notebooks can be directly ran on Google colab after putting the needed datasets and models under the corresponding Google drive directories. For example, saving the animal datasets under `/content/drive/MyDrive/SDV1_5_wildcard_animal/data_fine_tune_v5/` and `/content/drive/MyDrive/SDV1_5_wildcard_facial_expression/data_token_embedding/`.  
 
 The colab code will auto-complete other folder creation process, if you want to train your own models. Otherwise, you can save the pre-tained models for direct inference. The models should be saved directly under the parent directories. For example, saving the pre-trained model trained on the animal dataset under `/content/drive/MyDrive/SDV1_5_wildcard_animal/` and the model trained on the face expression dataset under `/content/drive/MyDrive/SDV1_5_wildcard_facial_expression/`. 
 
