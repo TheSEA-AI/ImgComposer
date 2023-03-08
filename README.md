@@ -20,7 +20,7 @@ The notebooks contains the implementation and experiment code of `ImgComposer` o
 
 The colab code will auto-complete other folder creation process, if you want to train your own models. Otherwise, you can save the pre-tained models for direct inference. The models should be saved directly under the parent directories. For example, saving the pre-trained model trained on the animal dataset under `/content/drive/MyDrive/SDV1_5_wildcard_animal/` and the model trained on the face expression dataset under `/content/drive/MyDrive/SDV1_5_wildcard_facial_expression/`. 
 
-![Experimental results](https://github.com/theseainc/ImgComposer/figs/ICCVResults.png?raw=true)
+![Experimental results](https://github.com/theseainc/ImgComposer/blob/main/figs/ICCVResults.png?raw=true)
 
 
 # Additional Notes 
